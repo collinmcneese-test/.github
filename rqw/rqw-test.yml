@@ -1,0 +1,11 @@
+name: rqw-test
+
+on:
+  pull_request:
+
+jobs:
+  checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check
+        run: echo "this is content"
