@@ -1,0 +1,11 @@
+name: echo2
+
+on:
+  workflow_call:
+
+jobs:
+  echo2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo 2
