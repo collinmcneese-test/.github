@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: echo "This is echo1 workflow"
+        run: echo "This is the echo1 workflow"
 
 
